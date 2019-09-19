@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Firewall - pfSense
+GenericName=Web Browser
+GenericName[pt_BR]=Navegador da Internet
+Comment=Access the Internet
+Comment[pt_BR]=Acessar a internet
+
+Exec=/usr/bin/google-chrome-stable --app=https://10.1.8.253 --start-maximized --incognito
+StartupNotify=true
+Terminal=false
+Icon=google-chrome
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+Actions=new-window;new-private-window;
