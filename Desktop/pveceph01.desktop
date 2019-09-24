@@ -6,7 +6,7 @@ GenericName[pt_BR]=Navegador da Internet
 Comment=Access the Internet
 Comment[pt_BR]=Acessar a internet
 
-Exec=/usr/bin/google-chrome-stable --app=https://10.0.254.7:8006 --start-maximized --incognito
+Exec=/usr/bin/google-chrome-stable --app=https://10.0.254.7:8006 --start-maximized --incognito --disable-features=TranslateUI
 StartupNotify=true
 Terminal=false
 Icon=google-chrome
